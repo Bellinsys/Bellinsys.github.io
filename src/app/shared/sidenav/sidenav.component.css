@@ -1,0 +1,39 @@
+.app-drawer-container {
+  flex: 1;
+}
+
+.app-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+mat-sidenav {
+  padding: 20px;
+  /* width: 20%; */
+}
+
+.mat-mini-fab{
+  float: right;
+}
+
+.mat-icon-button:hover {
+  color: red;
+}
+
+.social-button-container{
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  margin-left:-20px;
+
+}
+
+.social-button-container a{
+  padding: 5px;
+
+}
+
+.mat-list-sidenav {
+  padding-right: 40px;
+}
