@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { SidenavService } from '../../services/sidenav.service';
 
 @Component({
@@ -8,6 +8,9 @@ import { SidenavService } from '../../services/sidenav.service';
 })
 export class HeaderComponent implements OnInit {
   title: string = "Bellinsys";
+  
+  @Input() menuopen: boolean;
+  @Output() menuopenChange = new EventEmitter<boolean>();
 
   constructor(private sidenavService: SidenavService) { } 
 
@@ -16,6 +19,7 @@ export class HeaderComponent implements OnInit {
 
   clickMenu(){
     this.sidenavService.toggle();
+    this.menuopenChange.emit(!this.menuopen);
   }
 
 }

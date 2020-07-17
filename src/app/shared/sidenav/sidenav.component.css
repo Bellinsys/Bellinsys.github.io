@@ -37,3 +37,11 @@ mat-sidenav {
 .mat-list-sidenav {
   padding-right: 40px;
 }
+
+.copy-content-container{
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  margin-left:-20px;
+
+}

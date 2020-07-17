@@ -1,0 +1,18 @@
+.blog-card {
+    width: 750px;
+    max-width: 750px;
+  }
+  
+  .blog-header-image {
+    background-size: cover;
+  }
+
+  .card-blog-container {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    margin: 30px 50px 5px 50px;
+    padding: 30px 50px 5px 50px;
+}
