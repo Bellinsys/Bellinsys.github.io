@@ -16,7 +16,8 @@ export class BlogComponent implements OnInit {
       'authorTitle': 'Developer',
       'postedOn': '17 Jul 2020',
       'postImgSrc': 'https://www.capasystems.com/wp-content/uploads/2018/02/kundecases-small-2-1080x675.jpg',
-      'blogContent': 'Welcome onboard!'
+      'blogContent': 'Welcome onboard!',
+      'link':'https://google.com'
     },
     {
       'author': 'Shiva Karantothu',
@@ -24,7 +25,8 @@ export class BlogComponent implements OnInit {
       'authorTitle': 'Founder',
       'postedOn': '17 Jul 2020',
       'postImgSrc': 'https://www.capasystems.com/wp-content/uploads/2018/02/kundecases-small-2-1080x675.jpg',
-      'blogContent': 'Welcome onboard!'
+      'blogContent': 'Welcome onboard!',
+      'link':'https://google.com'
     }
   ];
   ngOnInit(): void {

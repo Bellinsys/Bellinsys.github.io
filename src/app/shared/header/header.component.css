@@ -4,34 +4,38 @@
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: white;
-    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
-}
-  
-.app-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 8px 16px;
+    background-color: whitesmoke;
+    /* box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12); */
+    /* border-bottom: 1px solid whitesmoke; */
 }
 
 .header-title {
     font-family: 'lato', Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 1rem;
     color: #272361;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+
 }
 
 .brand-logo {
-    height: 24px;
+    height: 1.5rem;
     width: auto;
     padding: 3px;
-}
-
-.mat-button {
-    flex: 0;
 }
 
 mat-icon{
     color: grey;
 }
 
+/* .heading{
+    max-width: 1368px;
+} */
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+.social-icons {
+    padding: 3px;
+}
