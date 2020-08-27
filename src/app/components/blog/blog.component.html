@@ -1,10 +1,10 @@
 <div *ngFor="let blog of blogPosts" class="card-blog-container">
 <mat-card  class="blog-card">
-    <mat-card-header>
+    <!-- <mat-card-header>
       <div mat-card-avatar [ngStyle]="{ 'background-image': 'url(' + blog.authorImg + ')'}" class="blog-header-image"></div>
       <mat-card-title>{{ blog.author }}</mat-card-title>
       <mat-card-subtitle>{{blog.authorTitle}}, Posted on: {{ blog.postedOn }}</mat-card-subtitle>
-    </mat-card-header>
+    </mat-card-header> -->
     <img mat-card-image [src]="blog.postImgSrc" alt="Photo of a Author">
     <mat-card-content>
       <p>{{ blog.blogContent }}</p>

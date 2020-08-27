@@ -14,6 +14,11 @@ $theme: mat-light-theme((
   )
 ));
 
+$custom-typography: mat-typography-config(
+  $font-family: 'lato'
+);
+@include mat-core($custom-typography);
+
 // Include theme styles for Angular Material components.
 @include angular-material-theme($theme);
 
