@@ -10,19 +10,16 @@
 }
 
 .header-title {
-    font-family: 'lato', Helvetica, sans-serif;
-    font-size: 1rem;
+    font-family: 'ExpletusSans', Helvetica, sans-serif;
+    font-size: 1.6rem;
     color: #272361;
     font-weight: 600;
     letter-spacing: 0.3rem;
+    padding: 2rem;
 
 }
 
-.brand-logo {
-    height: 1.5rem;
-    width: auto;
-    padding: 3px;
-}
+
 
 mat-icon{
     color: grey;

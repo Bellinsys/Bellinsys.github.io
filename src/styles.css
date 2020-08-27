@@ -5,8 +5,16 @@
     src: url(assets/fonts/Lato/Lato-Regular.ttf) format("opentype");
   }
 
+@font-face {
+  font-family: ExpletusSans;
+  src: url(assets/fonts/ExpletusSans/ExpletusSans-Bold.ttf) format("opentype");
+}
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: white;}
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background: white;}
 
 
 a {
